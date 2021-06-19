@@ -17,13 +17,17 @@
     letter-spacing: 1px;
 }
 .inpages-container{
-    background-color: rgb(214 122 122);
+    background-color: rgb(101 82 82);
     width: auto;
     height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 15px;
+}
+@media screen and (max-width: 480px) {
+  .inpages-container {
+    background-color: lightgreen;
+  }
 }
 h1{
     color: rgb(17, 9, 9);
@@ -62,6 +66,13 @@ h1{
     height: 198px;
     text-align: center;
 }
+@media screen and (max-width: 620px) {
+  .Skill .programming-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
 .About p{
     color: rgb(49 21 21);
     margin: 40px;
@@ -74,11 +85,10 @@ h1{
     text-align: center;
 }
 .social{
-    
-    padding-top: 300px;
+    display: flex;
+    justify-content: space-around;
 }
 footer{
-    background-color: #ff5353;
     text-align: center;
     font-family: fangsong;
 }
