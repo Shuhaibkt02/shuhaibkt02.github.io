@@ -200,3 +200,35 @@ h1{
     }
   }
 
+
+.countPage {
+    height:60vh;
+    color:rgb(238, 198, 20)
+}
+#clockdiv{
+	font-family: sans-serif;
+	color: rgb(247, 247, 247);
+	font-weight: 100;
+	text-align: center;
+	font-size: 30px;
+}
+
+#clockdiv > div{
+	padding: 10px;
+	border-radius: 3px;
+	background: #a88653;
+	display: inline-block;
+    margin-top: 3rem;
+}
+
+#clockdiv div > span{
+	padding: 15px;
+	border-radius: 3px;
+	/* background: #00816A; */
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 16px;
+}
